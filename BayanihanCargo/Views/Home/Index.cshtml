@@ -1,0 +1,541 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!--Navigation Bar and Main Banner Section -->
+<div class="main-banner" id="main-banner">
+    <div class="main-banner-overlay">
+        <img class="overlay-img" src="~/img/wave-haikei2.svg" />
+    </div>
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container">
+                    <a class="nav-item navbar-title" href="#main-banner">
+                        <img id="banner-logo" href="#main-banner" />
+                    </a>
+                    <div class="bar-icon-container navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
+                        <div class="bar1 bar-icon"></div>
+                        <div class="bar2 bar-icon"></div>
+                        <div class="bar3 bar-icon"></div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-us">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#product">PRODUCT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#process">PROCESS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faq">FAQ's</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#feedback">FEEDBACK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-us">CONTACT US</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav float-right">
+                            <li class="nav-item">
+                                <a class="nav-link-social" asp-area="" asp-action="Faq"><i class="fas fa-phone"></i> 045-540-6019 CALL US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="sidenav" id="mySidenav">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="sidenav-nav-link" href="#about-us">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="sidenav-nav-link" href="#product">PRODUCT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="sidenav-nav-link" href="#process">PROCESS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="sidenav-nav-link" href="#faq">FAQ's</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="sidenav-nav-link" href="#feedback">FEEDBACK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="sidenav-nav-link" href="#contact-us">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+
+            </nav>
+            <div class="container main-text-container">
+                <div class="main-text">
+                    <p class="slideAnimMainText">Trusted Cargo Service Company <br />for over <span>21 years</span></p>
+                   <!----> <a class="primary-btn">Get a box Now! <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+</div>
+
+<!-- About Us Section -->
+<div id="about-us" class="section-container">
+    <div class="about-us-section container">
+        <h1 class="section-title"><a class="sub-text">ABOUT</a> US</h1>
+        <p class="section-subtitle">insert some text here</p>
+        <p class="section-subtitle">insert some sencond line of text here</p>
+        <br> <br />
+        <div class="row">
+            <div class="col-sm-12 col-md-7">
+                <h1 class="primary-text slideAnimUp"><a class="sub-text">BAYANIHAN </a>CARGO</h1>
+                <h4 class="secondary-text slideAnimUp">CARGO AND FREIGHT COMPANY</h4>
+                <p>Bayanihan Cargo is door to door cargo box company<br /> from japan delivered to Philippines</p>
+                <a href="#product-info" class="primary-btn-inv">SEE PRODUCT INFO  <i class="fas fa-arrow-right"></i></a>
+                <br /> <br />
+            </div>
+            <div class="col-sm-12 col-md-5">
+                <i class="fas fa-check about-us-icon-sm d-block d-md-none slideAnimUp"> </i>
+                <h3 class="secondary-text  slideAnimRight"><i class="fas fa-check about-us-icon"></i> TRUSTED</h3>
+                <p class="text-description  slideAnimRight">Bayanihan Cargo is door to door cargo box company<br /> from japan delivered to Philippines</p>
+
+                <i class="fas fa-bolt about-us-icon-sm d-block d-md-none slideAnimUp"> </i>
+                <h3 class="secondary-text  slideAnimRight"><i class="fas fa-bolt about-us-icon"></i> FAST</h3>
+                <p class="text-description  slideAnimRight">Bayanihan Cargo is door to door cargo box company<br /> from japan delivered to Philippines</p>
+
+                <i class="fas fa-thumbs-up about-us-icon-sm d-block d-md-none slideAnimUp"></i>
+                <h3 class="secondary-text  slideAnimRight"><i class="fas fa-thumbs-up about-us-icon"></i> EASY</h3>
+                <p class="text-description  slideAnimRight">Bayanihan Cargo is door to door cargo box company<br /> from japan delivered to Philippines</p>
+
+            </div>
+        </div>
+        <br />
+    </div>
+</div>
+
+<!-- Our Product Section -->
+<div id="product">
+    <div class="bg-grey section-container">
+        <div class="product-section container">
+            <h1 class="section-title-left"><a class="sub-text">OUR</a> PRODUCT</h1>
+            <p class="section-subtitle-left">insert some text here</p>
+            <p class="section-subtitle-left">insert some sencond line of text here</p>
+            <br> <br />
+            <div class="row">
+                <div class="col-md-4 product">
+                    <div class="card slideAnimLeft">
+                        <div class="card-title card-img1">
+                            <h4>Jumbo Box</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> <strong>Price starts at ¥10,500 </strong></p>
+                            <p class="card-text"> Size: 55cm x 75cm x 63cm</p>
+                            <a id="actual-photo-01" data-toggle="modal" data-target="#modal01" class="btn btn-primary">See Actual Photo <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product">
+                    <div class="card ">
+                        <div class="card-title card-img2">
+                            <h4>Regular Box</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> <strong>Price starts at ¥7,500</strong></p>
+                            <p class="card-text">Size: 55cm x 37cm x 63cm</p>
+                            <a id="actual-photo-02" data-toggle="modal" data-target="#modal02" class="btn btn-primary">See Actual Photo <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product">
+                    <div class="card slideAnimRight">
+                        <div class="card-title card-img3">
+                            <h4>Twin Box</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> <strong>Price starts at ¥10,500 </strong></p>
+                            <p class="card-text">Size: 55cm x 37cm x 63cm (2pc)</p>
+                            <a id="actual-photo-03" data-toggle="modal" data-target="#modal03" class="btn btn-primary">See Actual Photo <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="product-info">
+            <br /> <br /><br />
+            <h2 class="section-title-left"><a class="sub-text">Product</a> Pricing</h2>
+            <p class="section-subtitle-left">insert some text here</p>
+            <p class="section-subtitle-left">insert some sencond line of text here</p>
+            <br />
+            <div style="overflow-x:auto;">
+                <table>
+                    <tr>
+                        <th>Destination</th>
+                        <th>Jumbox Box</th>
+                        <th>Regular Box</th>
+                        <th>Twin Box</th>
+                        <th>Delivery</th>
+                    </tr>
+                    <tr>
+                        <td>Metro Manila</td>
+                        <td>¥10,500</td>
+                        <td>¥7,500</td>
+                        <td>¥10,500</td>
+                        <td>3 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td>Laguna</td>
+                        <td>¥10,500</td>
+                        <td>¥7,500</td>
+                        <td>¥10,500</td>
+                        <td>3 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td>Cavite</td>
+                        <td>¥10,500</td>
+                        <td>¥7,500</td>
+                        <td>¥10,500</td>
+                        <td>3 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td>Luzon</td>
+                        <td>¥10,500</td>
+                        <td>¥7,500</td>
+                        <td>¥10,500</td>
+                        <td>3 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td>Visayas</td>
+                        <td>¥10,500</td>
+                        <td>¥7,500</td>
+                        <td>¥10,500</td>
+                        <td>3 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td>Mindanao</td>
+                        <td>¥10,500</td>
+                        <td>¥7,500</td>
+                        <td>¥10,500</td>
+                        <td>3-4 Weeks</td>
+                    </tr>
+                    <tr>
+                        <td>Inter-Island</td>
+                        <td>¥10,500</td>
+                        <td>¥7,500</td>
+                        <td>¥10,500</td>
+                        <td>4 Weeks</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Modal -->
+  <div class="modal" id="modal01">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="modal-button close" data-dismiss="modal">&times;</button>
+          <img class="modal-image" id="img01" src="~/img/slide-01.jpg">
+          <p class="modal-caption" id="caption">Jumbo Box</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal02">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="modal-button close" data-dismiss="modal">&times;</button>
+          <img class="modal-image" id="img01" src="~/img/slide-02.jpg">
+          <p class="modal-caption" id="caption">Regular Box</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal03">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="modal-button close" data-dismiss="modal">&times;</button>
+          <img class="modal-image" id="img01" src="~/img/slide-03.jpg">
+          <p class="modal-caption" id="caption">Twin Box</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Our Process Section -->
+<div id="process" class="section-container">
+    <div class="container">
+        <div class="process-section ">
+            <h1 class="section-title">OUR <a class="sub-text">PROCESS</a></h1>
+            <p class="section-subtitle">insert some text here</p>
+            <p class="section-subtitle">insert some sencond line of text here</p>
+            <br> <br>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="step-slot shadow popAnim">
+                  <div class="step-header noselect">
+                      <h1>1</h1>
+                      <div class="tear">
+                          <i class="fas fa-comment-dots"></i>
+                      </div>
+                      <img src="~/img/open-box-1.png">
+                  </div>
+                <div class="step-body">
+                  <h5 class="step-title-right">Message Us</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <!--  dfsdfs-->
+            <div class="col-lg-3 col-md-6">
+              <div class="step-slot shadow popAnim">
+                  <div class="step-header noselect d-lg-none d-xl-none">
+                       <h1>2</h1>
+                       <div class="tear">
+                          <i class="fas fa-box-open"></i>
+                       </div>
+                       <img src="~/img/open-box-1.png">
+                   </div>
+                   <div class="step-body">
+                        <h5 class="step-title-left">Box Delivery</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                   <div class="step-header noselect d-none d-lg-block d-xl-block">
+                       <h1>2</h1>
+                       <div class="tear">
+                           <i class="fas fa-box-open"></i>
+                       </div>
+                       <img src="~/img/open-box-1.png">
+                   </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="step-slot shadow popAnim">
+                  <div class="step-header noselect">
+                      <h1>3</h1>
+                      <div class="tear">
+                          <i class="fas fa-truck-loading"></i>
+                      </div>
+                      <img src="~/img/open-box-1.png">
+                  </div>
+                  <div class="step-body">
+                    <h5 class="step-title-right">Pick Up</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="step-slot shadow popAnim">
+                    <div class="step-header noselect d-lg-none d-xl-none">
+                        <h1>4</h1>
+                        <div class="tear">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <img src="~/img/open-box-1.png">
+                      </div>
+                  <div class="step-body">
+                    <h5 class="step-title-left">Cargo Shipping</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div class="step-header noselect d-none d-lg-block d-xl-block">
+                    <h1>4</h1>
+                    <div class="tear">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <img src="~/img/open-box-1.png">
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- FAQ's Section -->
+<div id="faq">
+    <div class="bg-grey section-container">
+        <div class="container">
+            <div class="faq-section ">
+                <h1 class="section-title-left">FREQUENLY ASKED <a class="sub-text">QUESTION</a></h1>
+                <p class="section-subtitle-left">insert some text here</p>
+                <p class="section-subtitle-left">insert some sencond line of text here</p>
+                <br> <br>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-1" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">Where are you located? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-2" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">What are your hours? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-3" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">Can you tell me more about your business? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-4" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">What services do you offer? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-5" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">What are the Payment Options? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-6" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">What items are not allowed in a Balikbayan Box? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-7" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">What is Bayanihan Cargo's Payment Policy? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-8" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">How to report a payment? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-9" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">What are the things I need to know before requesting pick-up? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+                <div class="faq-item slideAnimUp">
+                    <div id="faq-question-id-10" class="faq-question" onclick="slideFunction(this)">
+                        <p class="no-margin">When do you pick up in my area? <i class="bi bi-chevron-right float-right plus-icon"></i></p>
+                    </div>
+                    <div id="faq-answer-id" class="faq-answer">
+                        <p>insert some sencond line of text here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+    </div>
+</div>
+
+<!-- Customer Feedback  Section -->
+<div id="feedback" class="section-container">
+    <div class="container">
+        <div class="testimonials-section ">
+            <h1 class="section-title"><a class="sub-text">CUSTOMER</a> FEEDBACK</h1>
+            <p class="section-subtitle">insert some text here</p>
+            <p class="section-subtitle">insert some sencond line of text here</p>
+            <br> <br>
+            <div class="slider demo">
+                <div class="card">
+                    <div class="review-card-img card-img-top review-1"></div>
+                    <div class="card-body review-card-body">
+                        <p class="card-text">The box arrived earlier than expected. Can't wait for the next transaction.</p>
+                        <p class="card-text-emp"><img src="~/img/Icon.png" />Juan Dela Cruz</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="review-card-img card-img-top review-2"></div>
+                    <div class="card-body review-card-body">
+                        <p class="card-text">3 weeks lang at super smooth ng transaction ng bayanihan cargo mababait  pa mga staff. Sa uulitin, Salute.</p>
+                        <p class="card-text-emp"><img src="~/img/Icon.png" />- kath Reena</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="review-card-img card-img-top review-3"></div>
+                    <div class="card-body review-card-body">
+                        <p class="card-text">Mabilis at hindi gutay gutay ang box, Salamat po.</p>
+                        <p class="card-text-emp"><img src="~/img/Icon.png" />Gerald Paras</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="review-card-img card-img-top review-4"></div>
+                    <div class="card-body review-card-body">
+                        <p class="card-text">Thank you po dun sa una kong package natanggap na po nila yoroshiku po. Ang bilis po at ang babait ng staff nyo</p>
+                        <p class="card-text-emp"><img src="~/img/Icon.png" />Fujisawa Gina</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="review-card-img card-img-top review-5"></div>
+                    <div class="card-body review-card-body">
+
+                        <p class="card-text">Mabilis po ang serbisyo nyo, Maraming salamat po, natanggap na po sa amin sa pinas ang mga pinadala ko thank you po ulit.</p>
+                        <p class="card-text-emp"><img src="~/img/Icon.png" />Cecili Kawabata</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Us Section -->
+<div id="contact-us" class="bg-grey" >
+    <div class="container section-container">
+        <div class="contact-section">
+            <h1 class="section-title"><a class="sub-text">CONTACT</a> US</h1>
+            <p class="section-subtitle">insert some text here</p>
+            <p class="section-subtitle">insert some sencond line of text here</p>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="contact-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <address class="slideAnimUp">
+                        <strong><span class="navy">Bayanihan Cargo</span></strong><br />
+                        <i class="bi bi-geo-alt-fill"></i> San Francisco, CA 94107<br />
+                        <i class="bi bi-phone-fill"></i> (123) 456-7890<br />
+                        <i class="bi bi-envelope-open-fill"></i> bayanihancargo@gmail.com
+                    </address>
+                    <a href="#" class="footer-icon fa fa-facebook"></a>
+                    <a href="#" class="footer-icon fa fa-twitter"></a>
+                    <a href="#" class="footer-icon fa fa-youtube"></a>
+                    <a href="#" class="footer-icon fa fa-instagram"></a>
+                </div>
+                <div class="col-lg-6 clearfix">
+                    <img class="contact-image" src="~/img/conveyor.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+﻿@{
+
+    string CurrentName = ViewContext.RouteData.Values["Controller"].ToString();
+
+    switch (CurrentName)
+    {
+        case "Experimental":
+            Layout = "_LayoutExperimental";
+            break;
+        default:
+            Layout = "_Layout";
+            break;
+    }
+
+
+}

@@ -1,0 +1,128 @@
+﻿/*slide left animation*/
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slideLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/*slide right animation*/
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        left: 50%;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@-webkit-keyframes slideRight {
+    0% {
+        opacity: 0;
+        left: 50%;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+/*slide up animation*/
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+/*pop up animation*/
+@keyframes pop {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes pop {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/*modal animation*/
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
